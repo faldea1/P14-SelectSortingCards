@@ -132,10 +132,24 @@ window.onload = () => {
 
     //Aplicar Select Sort:
     const sortSelect = (arr) => {
+        let min = 0;
+        const logs = []
 
+        while (min <= arr.length -1){
+            const x = [...arr]
+            logs.push(x)
+            for (let i= min + 1; i< arr.length; i= i + 1){
+                if (arr[min].value && arr[min].value > arr[i].value) {
+                    let aux = arr[min];
+                    arr[min] = arr[i];
+                    arr[i] = aux;
+                }
+            }
+            min = min + 1;
+        }
+        return logs;    
     }
     
-
 
     //Resetear Draw y Sort:
     const restartCards = () => {
