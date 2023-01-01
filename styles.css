@@ -1,0 +1,125 @@
+
+body {
+    background-color: green;
+}
+
+
+h4 {
+    font-size:x-large;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+
+
+
+}
+
+.card {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    width: 80px;       
+    height: 100px;  
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;   
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    background-color: rgb(196, 194, 194);
+    
+}
+
+.genRandomCards{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: center;
+
+
+}
+
+#stepbysteprender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    width: 100%;
+    padding-right: 35px;
+}
+
+.logRow {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin: none;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.symbol{
+    position: absolute;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+.titleforsort{
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.titlefordeck{
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+input{
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-right:5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+.setting{
+    padding: 10px;
+}
+
+#setRandomCardsNumb{
+    color:red;
+    border: 1px solid red;
+    
+    
+}
